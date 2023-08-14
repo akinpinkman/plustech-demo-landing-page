@@ -1,0 +1,36 @@
+footer {
+  font-family: "Frank Ruhl Libre", serif;
+  background-color: #161827;
+  width: 100%;
+  height: auto;
+  color: #f0f8ff;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0 5rem 10rem;
+  width: 50%;
+}
+
+.sosyal-medya {
+  padding: 5rem 0 5rem 10rem;
+  display: block;
+}
+
+.sosyal-medya-icons {
+  display: flex;
+  gap: 1.7rem;
+}
+
+.copyright {
+  padding: 0 0 0 10rem;
+}
+
+.footer-button {
+  margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+.instagram i,
+.youtube i {
+  font-size: 50px;
+}
+
+.instagram,
+.youtube {
+  padding: 10px 0 10px 0;
+  border-radius: 100%;
+  text-align: center;
+  border: solid aliceblue 2px;
+  width: 70px;
+  height: auto;
+  transition: ease-in-out 0.3s;
+}
+
+.instagram:hover,
+.youtube:hover {
+  background-color: #12eacb;
+  color: #161827;
+  box-shadow: 0 0 10px 5px #12eacb;
+}
+
+.footer-button {
+  font-family: "Oxygen", sans-serif;
+  border-radius: 20rem;
+  height: 40px;
+  width: 150px;
+  transition: ease-in-out 0.3s;
+  letter-spacing: 2px;
+}
+
+.footer-button:hover {
+  background-color: #12eacb;
+  color: #161827;
+  box-shadow: 0 0 10px 5px #12eacb;
+}

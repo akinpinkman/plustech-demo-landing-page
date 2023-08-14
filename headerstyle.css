@@ -1,0 +1,82 @@
+/* FONTS 
+HEADER
+font-family: 'Frank Ruhl Libre', serif;
+
+BODY
+font-family: 'Titillium Web', sans-serif; 
+
+LOGO
+font-family: 'Titillium Web', sans-serif;
+*/
+
+header {
+  width: 82%;
+  height: 150px;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: flex;
+  color: aliceblue;
+  padding-top: 40px;
+}
+
+.slogan-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem 0 0 10rem;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 30px;
+  color: #f0f8ff;
+}
+
+.gif-holder {
+  background-image: url("./img/header.gif");
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  width: 50%;
+  height: 40%;
+  justify-content: space-around;
+}
+
+.navbar > a {
+  list-style-type: none;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 2px;
+}
+
+.iletisim {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #12eacb;
+  width: 100px;
+  height: 44px;
+  padding: 0 10px 0 10px;
+}
+
+.logo {
+  width: 120px;
+  height: 100px;
+}
+
+.logo-header-container {
+  display: flex;
+  padding-top: 8px;
+  margin-left: -14px;
+}
+
+.logo-header {
+  width: 451px;
+  font-family: "Black Ops One", cursive;
+  font-size: 50px;
+  padding: 0px 200px 0 40px;
+}
